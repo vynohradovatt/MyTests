@@ -10,6 +10,8 @@ public class SumCalculatorTests {
 
     private SumCalculator sumCalculator;
 
+    int a = 9;
+
     @BeforeEach
     public void beforeEach() {
         sumCalculator = new SumCalculator();
